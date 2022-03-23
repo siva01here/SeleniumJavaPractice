@@ -5,7 +5,7 @@ public class Factorial {
 		int factorialToFind=4;
 		double fact=1;
 		
-		for(int i=1;i<=factorialToFind;i++)
+		for(int i=factorialToFind;i>0;i--)
 		{
 			fact=fact*i;
 		}
